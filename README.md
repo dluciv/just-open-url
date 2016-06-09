@@ -1,3 +1,13 @@
-Works under Windows + Cygwin or Msys (edit `.reg` file)
+Overview
+--------
 
-Does not work under Linux yet. Looks like `xdg-open` is first-class asshole...
+TODO
+
+Requirements
+------------
+
+* Windows
+    * Cygwin or Msys (or both)
+    * Edit `.reg` file properly
+* Unix
+    * `xdg-utils`
