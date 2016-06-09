@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Just Open
+MimeType=x-scheme-handler/just-open;
+Exec=/home/d/_/safe_wf/GitHub/just-open/just-open.sh %U
+Icon=firefox
+StartupNotify=true
+X-Desktop-File-Install-Version=0.22
