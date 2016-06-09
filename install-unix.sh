@@ -5,10 +5,16 @@ here=`pwd`
 popd
 
 # It is so for Arch Linux and possibly for some others too
-targetdir=~/.data/applications
+if [ "$XDG_DATA_HOME" == "" ]; then
+  echo Warning: XDG_DATA_HOME is not configured 
+  export XDG_DATA_HOME=~/.data
+fi
+
+targetdir=$XDG_DATA_HOME/applications
+echo Installing to $targetdir...
 mkdir -p $targetdir
 
-echo Installing...
+export XDG_UTILS_DEBUG_LEVEL=3
 
 echo "[Desktop Entry]
 Type=Application
