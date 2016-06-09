@@ -1,0 +1,3 @@
+Works under Windows + Cygwin or Msys (edit `.reg` file)
+
+Does not work under Linux yet. Looks like `xdg-open` is first-class asshole...
