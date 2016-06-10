@@ -7,7 +7,7 @@ Requirements
 ------------
 
 * Windows
-    * Cygwin or Msys (or both)
-    * Edit `.reg` file properly
+    * Windows Scripting Host
+    * Administrator rights to run `install-windows-as-administrator.js`
 * Unix
     * `xdg-utils`
