@@ -5,6 +5,7 @@
 // @description  Intercept all external links to be handled by just-open scheme
 // @author       Dmitry V. Luciv
 // @match        http*://vector.im/beta/*
+// @match        http*://vector.im/develop/*
 // @match        https://web.skype.com/*
 // @grant        none
 // ==/UserScript==
