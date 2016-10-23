@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Messenger like Matrix and Skype external URLs
 // @namespace    http://dluciv.name/
-// @version      0.0.3
+// @version      0.0.4
 // @description  Intercept all external links to be handled by just-open scheme
 // @author       Dmitry V. Luciv
 // @match        http*://vector.im/beta/*
+// @match        https://riot.im/app/*
 // @match        http*://vector.im/develop/*
 // @match        https://web.skype.com/*
 // @grant        none
